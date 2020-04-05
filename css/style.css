@@ -107,7 +107,7 @@ body {
 .sections-two {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .sections-two__item {
     position: relative;
@@ -144,6 +144,20 @@ body {
     line-height: 1.2;
     margin: 0;
     margin-bottom: 20px;
+}
+.slider-wrapper {
+    width: 768px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    box-shadow: 3px 3px 6px 4px #888;
+}
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slider-img {
+    display: block;
+    width: 100%;
 }
 
 
