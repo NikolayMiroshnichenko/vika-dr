@@ -1,12 +1,17 @@
 const modal = document.querySelector('.js-modal-wrapper');
 const closeModalBtn = document.querySelector('.main-btn-yes');
+const errorModalBtn = document.querySelector('.main-btn-noy');
 
 
 setTimeout(() => {
     openModal();    
-}, 3000);
+}, 1500);
 
 closeModalBtn.addEventListener('click', closeModal);
+
+errorModalBtn.addEventListener('click', () => {
+    alert('Вийди отсюда розбійник!');
+});
 
 function openModal() {
     modal.style.display = 'block';
